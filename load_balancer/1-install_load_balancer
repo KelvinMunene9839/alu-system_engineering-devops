@@ -22,7 +22,7 @@ frontend http-in
 backend web-backend
     mode http
     balance roundrobin
-    server 7327-web-01 35.178.212.47:80 check
+    server 7327-web-01 13.40.164.218 check
     server 7327-web-02 18.130.235.76:80 check
 CFG
 fi
