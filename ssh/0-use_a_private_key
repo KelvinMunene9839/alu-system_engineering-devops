@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-#!/bin/bash
-# Connect to the SSH server using the private key ~/.ssh/school
-ssh -i ~/.ssh/school ubuntu@16.60.115.58
-=======
 #!/usr/bin/env bash
 # Connects to remote server using the private key ~/.ssh/school
 ssh -i ~/.ssh/school ubuntu@35.177.149.1
->>>>>>> 97883d7 (Update load balancer server IPs, add UFW configuration script, and create README files for firewall and web stack debugging projects)
+
